@@ -6,6 +6,9 @@ window.location.reload();
   if (username == "LankyBox01") {
     document.cookie = "banned=true; expires=Thu, 1 Dec 2022 12:00:00 UTC";
   }
+  if (username == "leahcimto") {
+    document.cookie = "banned=true; expires=Thu, 1 Dec 2022 12:00:00 UTC";
+  }
 }
 
 function onload() {
