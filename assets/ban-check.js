@@ -1,5 +1,5 @@
 function reload() {
-var username = document.getElementById("usename");
+var username = document.getElementById("usename").value;
 location.replace(window.location.href + "#" + username);
 window.location.reload();
 }
