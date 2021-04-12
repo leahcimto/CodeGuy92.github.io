@@ -3,15 +3,15 @@ var username = document.getElementById("usename").value;
 location.replace(window.location.href + "#" + username);
 window.location.reload();
 
-document.cookie = "user=lankybox01";
+  if (username == "LankyBox01") {
+    document.cookie = "banned=true; expires=Thu, 1 Dec 2022 12:00:00 UTC";
+  }
 }
 
 function onload() {
-  var cookie1 = document.cookie;
-  var username1 = cookie1.split('=')[1];
-  location.replace(window.location.href + "#" + username);
-  
-  if (location.hash == '#LankyBox01') {
-    location.replace(`https://lankybox01.leahcimto.com/website/ban#You were banned for testing purposes.`);
+  var cookiez = document.cookie;
+
+  if (cookiez == 'banned=true') {
+    location.replace(`https://lankybox01.leahcimto.com/ban`);
   }
 }
