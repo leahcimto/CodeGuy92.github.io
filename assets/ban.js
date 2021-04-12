@@ -6,3 +6,8 @@ document.getElementById("reason").innerText = converted;
 }else{
 document.getElementById("reason").innerText = "No reason provided.";
 }
+
+var cookiez = document.cookie;
+  if (cookiez == '') {
+    location.replace(`https://lankybox01.leahcimto.com/`);
+}
