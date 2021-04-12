@@ -3,7 +3,7 @@ name: Feature request
 about: Suggest an idea for my website.
 title: "[Feature Request]"
 labels: ''
-assignees: ''
+assignees: CodeGuy92
 
 ---
 

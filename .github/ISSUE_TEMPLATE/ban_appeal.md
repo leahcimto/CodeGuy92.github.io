@@ -3,7 +3,7 @@ name: Ban Appeal
 about: Appeal a ban on the website.
 title: "[Ban Appeal]"
 labels: ''
-assignees: ''
+assignees: CodeGuy92
 
 ---
 
